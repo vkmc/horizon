@@ -589,6 +589,4 @@ horizon.addInitFunction(horizon.datatables.init = function() {
     horizon.datatables.validate_button($(tab).find(".table_wrapper > form"));
     horizon.datatables.disable_actions_on_submit($(tab).find(".table_wrapper > form"));
   });
-
-  horizon.datatables.update();
 });
